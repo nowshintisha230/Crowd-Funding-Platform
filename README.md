@@ -1,34 +1,66 @@
-# 🚀 CrowdFunding Platform
+# 💙 GiveOra — Give Hope. Create Change.
 
-A modern and responsive crowdfunding platform where creators can launch campaigns, supporters can contribute credits to meaningful projects, and admins can manage the entire platform.
+**GiveOra** is a modern crowdfunding platform designed to connect people who want to support meaningful causes with creators who are working to make a difference.
+
+GiveOra is available as both a **Web Platform** and a **Mobile Application**, providing a seamless crowdfunding experience across devices.
+
+> **Give hope. Create Change.**
 
 ## 🌐 Live & Repository Links
 
-| Resource                   | Link                                    |
-| -------------------------- | --------------------------------------- |
-| 🔴 **Live Website**        | [Live Site](YOUR_FRONTEND_LIVE_URL)     |
-| 🎨 **Frontend Repository** | [Client GitHub](YOUR_CLIENT_GITHUB_URL) |
-| ⚙️ **Backend Repository**  | [Server GitHub](YOUR_SERVER_GITHUB_URL) |
+| Resource                     | Link                                        |
+| ---------------------------- | ------------------------------------------- |
+| 🔴 **Live Website**          | [GiveOra Web](YOUR_FRONTEND_LIVE_URL)       |
+| 🎨 **Frontend Repository**   | [Web GitHub](YOUR_CLIENT_GITHUB_URL)        |
+| ⚙️ **Backend Repository**    | [Backend GitHub](YOUR_SERVER_GITHUB_URL)    |
 
-## ✨ Features
+## ✨ Key Features
 
-* 🔐 Secure user authentication with Email/Password and Google Sign-In
-* 👥 Role-based access control for **Supporter, Creator, and Admin**
-* 💰 Credit-based crowdfunding and contribution system
-* 🚀 Creators can create, update, and manage crowdfunding campaigns
-* 🔎 Supporters can explore approved and active campaigns
-* 💳 Stripe-powered credit purchasing system
-* 📊 Interactive dashboards based on user roles
-* 🔔 Real-time-style notification system for important platform activities
-* 💸 Creator withdrawal system with withdrawal request management
-* 🛡️ Admin campaign approval and rejection system
-* 👤 Admin user management and role management
+* 🔐 Secure authentication with Email/Password and Google Sign-In
+* 👥 Role-based access for **Supporters, Creators, and Admins**
+* 💰 Credit-based crowdfunding system
+* 🚀 Campaign creation and management
+* 🔎 Explore approved and active campaigns
+* 💳 Stripe-powered credit purchasing
+* 📊 Role-based dashboards
+* 🔔 Notification system
+* 💸 Creator withdrawal system
+* 🛡️ Campaign approval and rejection
+* 👤 User and role management
 * 📋 Contribution tracking with pagination
-* 🖼️ Image uploading system using ImgBB
-* 🚨 Campaign reporting system for suspicious or fraudulent campaigns
-* 📱 Fully responsive design for mobile, tablet, and desktop
+* 🖼️ Image uploading using ImgBB
+* 🚨 Campaign reporting system
 * 🔒 Protected routes with role-based authorization
-* ⚡ Modern UI with animations and an intuitive user experience
+* 📱 Responsive web experience
+* ⚡ Modern UI with smooth animations
+
+## 📱 GiveOra Mobile App
+
+GiveOra also includes a dedicated mobile application built with **React Native and Expo**.
+
+The mobile app brings the core crowdfunding experience to Android and iOS devices, allowing users to discover campaigns, contribute to causes, manage campaigns, and stay connected with platform activities on the go.
+
+### Mobile Technology
+
+* React Native
+* Expo
+* TypeScript
+* REST API
+* Secure Authentication
+
+### Mobile Features
+
+* 🔐 Authentication
+* 🔎 Campaign discovery
+* 📄 Campaign details
+* 💰 Campaign contributions
+* 💳 Credit purchasing
+* 📊 User dashboards
+* 🔔 Notifications
+* 📋 Contribution history
+* 🎨 Creator campaign management
+* 💸 Withdrawal requests
+* 👥 Role-based functionality
 
 ## 👥 User Roles
 
@@ -38,8 +70,8 @@ Supporters can:
 
 * Explore approved campaigns
 * View campaign details
-* Contribute credits to campaigns
-* Track their contributions
+* Contribute credits
+* Track contributions
 * Purchase credits
 * View payment history
 * Receive notifications
@@ -49,7 +81,7 @@ Supporters can:
 Creators can:
 
 * Create crowdfunding campaigns
-* Manage their campaigns
+* Manage campaigns
 * Review supporter contributions
 * Approve or reject contributions
 * Track campaign performance
@@ -70,11 +102,9 @@ Admins can:
 * Review reported campaigns
 * Suspend or delete suspicious campaigns
 
----
-
 ## 💳 Credit System
 
-The platform uses credits as the primary contribution currency.
+GiveOra uses **credits** as the primary contribution currency.
 
 ### Credit Packages
 
@@ -87,65 +117,55 @@ The platform uses credits as the primary contribution currency.
 
 ### Creator Withdrawal
 
-Creators can withdraw their raised credits when they reach the minimum withdrawal requirement.
-
 **20 Credits = $1**
 
 For example:
 
 `500 Credits = $25`
 
----
-
 ## 🛠️ Technology Stack
 
-### Frontend
+### 🌐 Web
 
 * Next.js
 * TypeScript
 * Tailwind CSS
 
-### Backend
+### 📱 Mobile
+
+* React Native
+* Expo
+* TypeScript
+
+### ⚙️ Backend
 
 * Node.js
 * Express.js
 
-### Database
+### 🗄️ Database
 
 * PostgreSQL
 * Prisma ORM
 
-### Payment & Services
+### 💳 Payment & Services
 
 * Stripe
+* ImgBB
 
-### Deployment
+### 🚀 Deployment
 
-* Vercel — Frontend
-* Your Backend Hosting Provider — Backend
+* **Web:** Vercel
+* **Backend:** YOUR_BACKEND_HOSTING_PROVIDER
+* **Mobile:** Expo / EAS Build
 
-## 📱 Responsive Design
+## 🎯 Our Vision
 
-The platform is designed to provide a consistent experience across:
+GiveOra aims to make crowdfunding more accessible, transparent, and meaningful by creating a platform where every contribution can help turn an idea into real-world change.
 
-* 📱 Mobile devices
-* 📲 Tablets
-* 💻 Laptops
-* 🖥️ Desktop screens
-
-The dashboard and core platform features are also fully responsive.
-
----
-
-## 🎯 Purpose
-
-The goal of this project is to provide a simple and transparent platform where people can discover meaningful projects, support creators through contributions, and manage crowdfunding activities efficiently.
-
----
+**Give hope. Create Change. 💙**
 
 ## 👩‍💻 Developer
 
 **Nafisa Nowshin Tisha**
 
- MERN Stack Developer
-
+MERN Stack Developer
