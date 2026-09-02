@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CrowdFunding Platform
 
-## Getting Started
+A modern and responsive crowdfunding platform where creators can launch campaigns, supporters can contribute credits to meaningful projects, and admins can manage the entire platform.
 
-First, run the development server:
+## 🌐 Live & Repository Links
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Resource                   | Link                                    |
+| -------------------------- | --------------------------------------- |
+| 🔴 **Live Website**        | [Live Site](YOUR_FRONTEND_LIVE_URL)     |
+| 🎨 **Frontend Repository** | [Client GitHub](YOUR_CLIENT_GITHUB_URL) |
+| ⚙️ **Backend Repository**  | [Server GitHub](YOUR_SERVER_GITHUB_URL) |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 🔐 Secure user authentication with Email/Password and Google Sign-In
+* 👥 Role-based access control for **Supporter, Creator, and Admin**
+* 💰 Credit-based crowdfunding and contribution system
+* 🚀 Creators can create, update, and manage crowdfunding campaigns
+* 🔎 Supporters can explore approved and active campaigns
+* 💳 Stripe-powered credit purchasing system
+* 📊 Interactive dashboards based on user roles
+* 🔔 Real-time-style notification system for important platform activities
+* 💸 Creator withdrawal system with withdrawal request management
+* 🛡️ Admin campaign approval and rejection system
+* 👤 Admin user management and role management
+* 📋 Contribution tracking with pagination
+* 🖼️ Image uploading system using ImgBB
+* 🚨 Campaign reporting system for suspicious or fraudulent campaigns
+* 📱 Fully responsive design for mobile, tablet, and desktop
+* 🔒 Protected routes with role-based authorization
+* ⚡ Modern UI with animations and an intuitive user experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👥 User Roles
 
-## Learn More
+### 🧑‍💻 Supporter
 
-To learn more about Next.js, take a look at the following resources:
+Supporters can:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Explore approved campaigns
+* View campaign details
+* Contribute credits to campaigns
+* Track their contributions
+* Purchase credits
+* View payment history
+* Receive notifications
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎨 Creator
 
-## Deploy on Vercel
+Creators can:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Create crowdfunding campaigns
+* Manage their campaigns
+* Review supporter contributions
+* Approve or reject contributions
+* Track campaign performance
+* Request withdrawals
+* View withdrawal/payment history
+* Post campaign updates
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 👑 Admin
+
+Admins can:
+
+* View platform statistics
+* Approve or reject campaigns
+* Manage users
+* Change user roles
+* Manage campaigns
+* Process withdrawal requests
+* Review reported campaigns
+* Suspend or delete suspicious campaigns
+
+---
+
+## 💳 Credit System
+
+The platform uses credits as the primary contribution currency.
+
+### Credit Packages
+
+|      Credits | Price |
+| -----------: | ----: |
+|  100 Credits |   $10 |
+|  300 Credits |   $25 |
+|  800 Credits |   $60 |
+| 1500 Credits |  $110 |
+
+### Creator Withdrawal
+
+Creators can withdraw their raised credits when they reach the minimum withdrawal requirement.
+
+**20 Credits = $1**
+
+For example:
+
+`500 Credits = $25`
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* PostgreSQL
+* Prisma ORM
+
+### Payment & Services
+
+* Stripe
+
+### Deployment
+
+* Vercel — Frontend
+* Your Backend Hosting Provider — Backend
+
+## 📱 Responsive Design
+
+The platform is designed to provide a consistent experience across:
+
+* 📱 Mobile devices
+* 📲 Tablets
+* 💻 Laptops
+* 🖥️ Desktop screens
+
+The dashboard and core platform features are also fully responsive.
+
+---
+
+## 🎯 Purpose
+
+The goal of this project is to provide a simple and transparent platform where people can discover meaningful projects, support creators through contributions, and manage crowdfunding activities efficiently.
+
+---
+
+## 👩‍💻 Developer
+
+**Nafisa Nowshin Tisha**
+
+ MERN Stack Developer
+
