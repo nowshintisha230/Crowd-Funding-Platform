@@ -10,7 +10,7 @@ GiveOra is available as both a **Web Platform** and a **Mobile Application**, pr
 
 | Resource                     | Link                                        |
 | ---------------------------- | ------------------------------------------- |
-| 🔴 **Live Website**          | [GiveOra Web](YOUR_FRONTEND_LIVE_URL)       |
+| 🔴 **Live Website**          | https://crowd-funding-platform-alpha.vercel.app/       |
 | 🎨 **Frontend Repository**   | [Web GitHub](YOUR_CLIENT_GITHUB_URL)        |
 | ⚙️ **Backend Repository**    | [Backend GitHub](YOUR_SERVER_GITHUB_URL)    |
 
